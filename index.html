@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Righteous&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-navbar">
+        <nav class="navbar navbar-expand-sm position-fixed w-75 z-3 rounded-5" style="backdrop-filter: blur(6px); background-color: rgba(203, 173, 173, 0.27);">
+            <div class="container-fluid " >
+                <a class="navbar-brand fs-3 fw-bolder letter" href="./index.html">Hen's Diary</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-2 nav-fill">
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" aria-current="page" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" aria-current="page" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="Hero animation">
+            <h1 class="Title pt-2 mt-2 ">
+                <p>Hello, I'm Mahen.</p>
+                <p>Nice To Meet You.</p>
+            </h1>
+            <div class="sub-title ">
+                <p>Aku adalah orang gabut yang tertarik untuk mempelajari hal yang baru, terutama mempelajari kenapa hidup itu susah.</p>
+            </div>
+            <div class="awalan">
+                <div class="jokes">
+                    <p id="joke"></p>
+                </div>
+                <button id="btn">Random Joke Today</button>
+            </div>
+            <div class="port-link">
+                <p>Tertarik dengan saya?</p>
+
+                <h2><a href="./portfolio.html" >See Mahen's Portfolio Here</a>
+                </h2>
+            </div>
+            <p>Kurang meyakinkan? Berikut beberapa kegabutan maksimalku.</p>
+        </div>
+        <div class="main-gabut">
+            <div class="kegabutan">
+                <ul class="ul-gabut">
+                    <div class="animation">
+                        <h4><li>Main Game</li></h4>
+                        <img class="img-gabut" src="./img/ML.png" alt="game.png">
+                        <p>Tentunya sangat ramah dan tidak pernah berkata kasar.</p>
+                    </div>
+                    <div class="animation">
+                        <h4><li>Rebahan</li></h4>
+                        <img class="img-gabut" src="./img/turu.png" alt="rebahan.png">
+                        <p>Walau tidak dianjurkan, cuma aku pernah hampir 12 jam rebahan.</p>
+                    </div>
+                    <div class="animation">
+                        <h4><li>Kepo</li></h4>
+                        <img class="img-gabut" src="./img/kepo.png" alt="kepo.png">
+                        <p>Tolong yang lagi cerita tapi setengah-setengah kalian mending GAUSAH CERITA.</p>
+                    </div>                  
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="subtitle-foot animation">
+            <h3>
+                <p>Need Help or Something?</p>
+                <p>Contact Me At</p>
+            </h3>
+        </div>
+        <div class="contact-foot">
+            <ul class="ul-foot animation">
+                <li class="li-foot"><a target="_blank" href="https://www.instagram.com/hensupremacy/"><img src="./img/ig.png" alt="Instagram"></a></li>
+                <li class="li-foot"><a target="_blank" href="https://i.pinimg.com/564x/f9/00/e9/f900e907f36f4c7e18b8d61c20a926ec.jpg"><img src="./img/wa.png" alt="whatsapp"></a></li>
+                <li class="li-foot"><a target="_blank" href="https://media.makeameme.org/created/kepo-deh-anda.jpg"><img src="./img/fb.png" alt="facebook"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
